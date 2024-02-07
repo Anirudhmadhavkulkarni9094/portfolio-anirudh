@@ -11,10 +11,10 @@ function Projects() {
   })
 
   return (
-    <div className=" project h-screen text-white flex justify-center items-center" >
-      <div className="max-w-4xl mx-auto">
+    <div className=" project  text-white flex justify-center items-center" >
+      <div className="m-5">
         <h2 className="text-3xl font-bold mb-4">My Space Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 gap-4">
           {projects.map(project => (
             <div key={project.id} className="p-4 border rounded shadow-md bg-gray-900 card h-56 overflow-auto card">
               <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
