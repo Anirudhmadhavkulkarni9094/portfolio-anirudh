@@ -1,0 +1,74 @@
+.project-card{
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  margin: 2rem;
+  color: rgb(0, 0, 0);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px black;
+  background: linear-gradient(-35deg,rgb(248, 122, 122),rgb(219, 95, 250),rgb(108, 115, 255));
+}
+
+.project-card:hover{
+  transform:translateY(-0.5rem);
+  box-shadow: 0px 0px 5px black;
+}
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(232, 248, 255);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-form-layout{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.project-form{
+  text-align: left;
+  border: none;
+  box-shadow: 0px 0px 0px black!important;
+  padding: 2rem;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.form-input input , 
+.form-input textarea{
+  padding: 1rem;
+  border-radius: 1rem;
+  margin: 0.5rem;
+
+}
+
+
+.Project_desc{
+  height: 15rem;
+  overflow: scroll;
+}
+.Project_desc::-webkit-scrollbar {
+  width: 0rem; /* You can adjust this value to change the scrollbar width */
+}
+
+.Project_desc::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the scrollbar thumb transparent */
+}
+
+.Project_desc {
+  scrollbar-width: thin; /* "thin" makes the scrollbar invisible */
+  scrollbar-color: transparent transparent; /* Make the scrollbar thumb and track transparent */
+}

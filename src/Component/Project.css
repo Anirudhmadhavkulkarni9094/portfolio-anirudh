@@ -1,0 +1,25 @@
+.project{
+    background:  linear-gradient(to bottom, #0F2027, #203A43, #2C5364);
+}
+
+/* Add this to your CSS file */
+.card::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent; /* Optional: Set scrollbar background color */
+  }
+
+.card:hover{
+    box-shadow: 0px 0px 10rem 2px  white;
+
+}
+
+
+.background {
+    background: linear-gradient(to right, rgb(45, 2, 85), black);
+  }
+
+.about{
+    background: linear-gradient(to left , rgb(2, 2, 96), black);
+}
+  

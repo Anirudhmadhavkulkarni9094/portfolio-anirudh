@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.home-page {
+  background-image: url("./Component/Assets/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; /* Set the height of the container to the full viewport height */
+  margin: 0;     /* Remove default margin on body */
+  padding: 0;    /* Remove default padding on body */
+  overflow: hidden;
+}
